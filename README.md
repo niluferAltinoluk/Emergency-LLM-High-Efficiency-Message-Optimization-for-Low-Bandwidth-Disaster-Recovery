@@ -30,6 +30,15 @@ Interactive Visualizations: Temporal trend analysis of unique word counts and wo
 
 *Multilingual Support* : The system intelligently handles multiple languages (Turkish/English), making it adaptable for international disaster relief operations.
 
+# Real-World Impact & Dataset
+
+Emergency-LLM was developed using actual crisis data from the 2023 Turkey (Hatay) Earthquake. 
+
+* The Challenge: The dataset contains high-stress, urgent communication logs with non-standard grammar, local dialects, and significant noise (typos, abbreviations).
+
+Significance: By training/validating on one of the century's largest natural disasters, the model is "battle-tested" to handle the chaotic nature of human language during real emergencies.
+
+Ethics: All data has been processed with a focus on extracting critical survival information (Location, Health, Needs) while respecting the gravity of the source material.
 
 # Tech Stack 
 
@@ -71,7 +80,10 @@ The system successfully transforms verbose inputs into "SMS-ready" or "LoRaWAN-f
 # Project Structure 
 
 ├── gemma-3n-E4B-model/     # Saved model & tokenizer
+
 ├── data/                   # Dataset files (earthquake logs)
+
 ├── notebooks/              # Main logic and visualizations
+
 └── README.md               # Project documentation
 
