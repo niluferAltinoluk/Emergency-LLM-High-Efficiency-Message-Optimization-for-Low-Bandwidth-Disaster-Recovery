@@ -1,7 +1,14 @@
 # Project Overview
 
-In disaster scenarios, network bandwidth is extremely limited. Sending long, descriptive messages can fail due to packet loss or low signal. Emergency-LLM is an end-to-end solution that utilizes State-of-the-Art (SOTA) Large Language Models to compress and optimize emergency reports into minimal byte-size formats while retaining 100% of the critical information (location, health status, immediate needs).
+In major disasters (earthquakes, floods), cellular networks often collapse, leaving victims with zero internet access. Communication is only possible via low-bandwidth protocols like Bluetooth Low Energy (BLE) or LoRa, which have strict maximum transmission unit (MTU) limits.
 
+**Emergency-LLM solves this by providing:**
+
+* Edge AI Capability: Utilizing Unsloth and 4-bit quantization, the model is optimized to run offline on local devices without needing a cloud connection.
+
+* Byte-Size Optimization: It compresses verbose human speech into ultra-compact packets. Since Bluetooth/LoRa can only send a few hundred bytes at a time, this compression is the difference between a message being "Sent" or "Failed."
+
+* Multi-Protocol Ready: The output is structured to fit perfectly into BLE advertisements or LoRaWAN frames.
 
 # Key Features
 
