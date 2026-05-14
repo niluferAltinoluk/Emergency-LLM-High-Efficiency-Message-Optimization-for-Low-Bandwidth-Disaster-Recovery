@@ -45,6 +45,16 @@ The `generate_enhanced_message` function mimics a mobile app environment, mergin
 
 ---
 
+##  Ethics & Privacy
+
+* All data derived from the 2023 Earthquake has been handled with extreme care, focusing strictly on extracting life-saving information while respecting the gravity of the source material.
+
+* Developed for: Disaster Relief, Search & Rescue Operations, and Edge-AI Research.
+
+* Hardware Requirement: Compatible with 8GB VRAM (Kaggle/Colab/Local GPU).
+
+---
+
 ##  Performance: Compression in Action
 
 | Input Type | Original Message | Optimized (LoRa-Ready) |
